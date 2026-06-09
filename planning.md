@@ -47,7 +47,7 @@ I choose Wildcat welcome, because it is our school's oreintation and there are a
 I think that 400 characters chuncks are good, since our pages are normally quite short bits of information, so anymore may reduce the quality of our chunks.
 
 **Overlap:**
-The overlap should be around 100 characters. I think although this is a lot, a couple of the pages have much longer paragraphs than others, so this should make it so that everything coherent be covered.
+The overlap should be around 75 characters. I think although this is a lot, a couple of the pages have much longer paragraphs than others, so this should make it so that everything coherent be covered.
 
 **Reasoning:**
 
