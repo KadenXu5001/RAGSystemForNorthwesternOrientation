@@ -1,0 +1,101 @@
+Systems and Apps to Know: Purple Prep for #NU2030 - Northwestern University
+Home
+Prepare for Fall
+Systems and Apps to Know
+Systems and Apps to Know
+There are several systems and apps you can get to know before arriving at Northwestern. This page provides an overview of systems to familiarize yourself with and apps to explore and download, including Multi-Factor Authentication, which is required to access many NetID-authenticated services.
+Duo Multi-Factor Authentication
+Northwestern requires
+Multi-Factor Authentication (MFA)
+as a part of the login process for most University systems and services, including all the applications listed below. MFA adds an extra layer of protection and is critical in preventing unauthorized access to personal and institutional information if your password is compromised.
+You must register a device with Duo Multi-Factor Authentication before you can access any MFA-enabled University system, including CAESAR and Canvas.
+Download the Duo App for
+iOS
+or
+Android,
+then follow the
+Duo enrollment instructions in the Knowledge Base. Please note that as part of the enrollment process, you will be required to verify your identity.
+If you get a new cell phone or cell phone number after setting up Duo Multi-Factor Authentication on a different phone, you will need to
+learn how to register Duo Multi-Factor Authentication on your new device
+.
+How to use Duo Multi-Factor Authentication in international contexts.
+CAESAR
+CAESAR
+is the system to help you manage your student account throughout your time at Northwestern. This is the place where you can update your personal profile, pay tuition and fees, track financial aid, and manage classes and transcripts. Purple Prep tasks that require you to use CAESAR:
+Authorize someone else to view and pay bills for tuition and fees (optional)
+Confirm participation in the Northwestern student health insurance plan or petition to waive enrollment
+Complete any financial-aid related tasks
+Pay tuition and fees
+Confirm that you have read and accepted the terms in the Student Handbook
+Your CAESAR Home Page Changes
+When you are officially enrolled as a student, new tiles that allow you to view classes will be added to your CAESAR homepage. Prior to your official enrollment, your Admitted homepage will include the tiles below:
+1.
+The Profile tile opens to pages for viewing and updating your user preferences and contact details. You can update your contact details once you have access to your Student Homepage. Another key function of this tile is setting up guest access to let others view and pay bills. From July through September, you can use the Profile tile or the Tasks tile to make your
+student health insurance coverage selection
+.
+2.
+The Account and Payments tile leads to pages for viewing University charges and payment options.
+3.
+The Financial Aid tile has information about applying for and managing financial aid. It features a To Do List that will show any aid-related tasks that come up this summer.
+4.
+The Tasks tile is where time-sensitive University to-do's are consolidated for easy tracking over the academic year.
+Canvas
+Canvas
+is the system that helps you manage all your classes for the quarter once you are registered. This is where you'll access course materials and the syllabus, submit assignments and tests, and view grades during the quarter. Purple Prep tasks that require you to use Canvas:
+Complete placement tests and assessments (
+as noted
+).
+Access Before the Arch programs (optional), which are posted in the Class of 2030 Canvas course when it launches in July.
+Access Wildcat Welcome information, which is posted in the Canvas course when it launches in July.
+Visit
+Canvas Onboarding for Students
+for tips on how to get started.
+For more information on using Canvas,
+learn the basics
+.
+To help manage courses and see assignments and information on the go, download Canvas for
+iOS
+or
+Android devices.
+Duo Multi-Factor Authentication is required to access Canvas.
+Housing Portal
+The
+Housing Portal
+is where you access services and requests related to housing at Northwestern. Purple Prep tasks that require use of the Housing Portal:
+Submit your housing contract
+View your housing assignment in August
+Select your move-in time appointment time in August
+Bookmark the Housing Portal in your web browser for quick access.
+NUhelp
+NUhelp
+includes student-support services and features for sharing a well-being concern, finding health/safety/security resources, and connecting with academic assistance on campus. While there are no Purple Prep tasks that require use of NUhelp, you are encouraged to bookmark the website for future use.
+Learn more about TimelyCare
+and download the app for
+iOS or Android
+.
+NUGuardian
+As part of our commitment to the safety of our community, Northwestern has launched
+NUGuardian
+, a free peer-to-peer mobile app that turns your smartphone into a personal safety device. The app allows students to designate their existing smartphone contacts to act as "Guardians" who virtually walk with them on campus or off campus.
+Download the NUGuardian app for
+iOS or Android
+Zoom
+Zoom
+is a cloud-based videoconferencing service used for virtual meetings and classes. To access your Northwestern Zoom account, make sure you go to the unique URL for Northwestern's Zoom
+https://northwestern.zoom.us/
+and log in using your NetID and password.
+Download Zoom for
+desktop, iOS, or Android
+.
+If you already have a personal Zoom account on a desktop or mobile app, you will need to log out and sign back in using Northwestern credentials by clicking
+"Sign in with SSO"
+.
+Duo Multi-Factor Authentication is required to access Zoom.
+Please review the
+Northwestern IT Hardware Recommendations
+. Cloud-based devices such as Chromebooks do not meet laptop requirements.
+Throughout your time at Northwestern, you can quickly find
+access to technology resources for students
+on the
+Northwestern IT website
+.
