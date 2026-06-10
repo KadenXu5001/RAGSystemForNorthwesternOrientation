@@ -89,7 +89,7 @@ If cost wasn't a constraint, I would consider the dimentionality of the vectors.
 | 1   | How many doses of DTP, DTaP, DT, Td, or Tdap are required. | Up to 3                                                               |
 | 2   | When are purple prep emails sent out                       | The first and third Tuesday of every month from May through September |
 | 3   | When do first year students register for classes?          | during Wildcat Welcome                                                |
-| 4   | where you access services and requests related to housing  | The housing portal                                                    |
+| 4   | where can I learn more about housing                       | The housing portal                                                    |
 | 5   | When do fall classes begin?                                | Wednesday, September 23, 2026                                         |
 
 ---

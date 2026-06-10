@@ -1,7 +1,7 @@
 # The Unofficial Guide — Project 1
 
 > **How to use this template:**
-> Complete each section *after* you've built and tested the corresponding part of your system.
+> Complete each section _after_ you've built and tested the corresponding part of your system.
 > Do not write placeholder text — if a section isn't done yet, leave it blank and come back.
 > Every section below is required for submission. One-liners will not receive full credit.
 
@@ -14,6 +14,8 @@
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
+I choose Wildcat welcome, because it is our school's oreintation and there are a lot of stuff that is midly touched on at the start of the year, and then forgotten about. There are a lot of good resources there, so that could be useful.
+
 ---
 
 ## Document Sources
@@ -22,18 +24,18 @@
      Be specific: include URLs, subreddit names, forum thread titles, or file names.
      Aim for variety — sources that together cover different subtopics or perspectives. -->
 
-| # | Source | Type | URL or file path |
-|---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| #   | Source                                  | Description                                              | URL or location                                                                                                                                        |
+| --- | --------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| 1   | Wildcat welcome page                    | Describes the gist of wildcat welcome                    | https://www.northwestern.edu/newstudent/first-year-students/wildcat-welcome/                                                                           |
+| 2   | Student newspaper about wildcat welcome | A student newspaper about wildcat welcome and what to do | https://dailynorthwestern.com/2025/08/31/featured-stories/orientationissue/orientation-issue-2025/welcoming-the-wildcats-a-rundown-on-wildcat-welcome/ |
+| 3   | New student move in page                | page where housing/move in details are kept              |                                                                                                                                                        | https://www.northwestern.edu/living/incoming-undergraduates/new-student-and-transfer-student-fall-move-in.html |
+| 4   | Wildcat welcome FAQs                    | FAQs for wildcat welcome                                 | https://www.northwestern.edu/newstudent/about/faqs/faqs-wildcat-welcome.html                                                                           |
+| 5   | International student programming guide | Guide for programing for international students          | https://www.northwestern.edu/purple-prep/orientation/international-student-orientation.html                                                            |
+| 6   | student resources                       | links to several student resources on campus             | https://www.northwestern.edu/newstudent/first-year-students/                                                                                           |
+| 7   | Northwestern Academic calandar          | academic calandar                                        | https://www.registrar.northwestern.edu/calendars/academic-calendars/                                                                                   |
+| 8   | Systems and apps                        | Info about what apps you need to download                | https://www.northwestern.edu/purple-prep/prepare/systems-apps.html                                                                                     |
+| 9   | Peer advisor guide                      | Webpage about what to expect for peer advisors           | https://www.northwestern.edu/studentaffairs/news-events/pa-program.html                                                                                |
+| 10  | Health requirements                     | Guide to which immunizaitons are required to attend      | https://www.northwestern.edu/immunization-compliance/required-immunizations/new-undergraduate-and-graduate-students.html                               |
 
 ---
 
@@ -48,11 +50,17 @@
 
 **Chunk size:**
 
+I think that 400 characters chuncks are good, since our pages are normally quite short bits of information, so anymore may reduce the quality of our chunks.
+
 **Overlap:**
+The overlap should be around 75 characters. I think although this is a lot, a couple of the pages have much longer paragraphs than others, so this should make it so that everything coherent be covered.
 
 **Why these choices fit your documents:**
 
+These choicse fit the documents since most of them are FAQ documents, so it doens't really need a massive context since the answers will likely be a sentence long. 400 characters aren't that long in the grand scheme of things.
+
 **Final chunk count:**
+293
 
 ---
 
@@ -91,13 +99,15 @@
      Be honest — a partially accurate or inaccurate result that you explain well is more
      valuable than a suspiciously perfect result. -->
 
-| # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
-|---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| #   | Question                                                   | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
+| --- | ---------------------------------------------------------- | --------------- | ---------------------------- | ----------------- | ----------------- |
+| 1   | How many doses of DTP, DTaP, DT, Td, or Tdap are required. | up to 3         | up to 3                      | Relevent          | accurate          |
+
+|
+2 | When are purple prep emails sent out | first and third Tuesday of every month from May through September | launches in early may | relevent | partially accurate |
+| 3 |When do first year students register for classes? | during wildcat welcome|during wildcat welcome |relevent |accurate |
+| 4 |where can I learn more about housing | The housing portal| various accurate resources about housing | relvent |accurate |
+| 5 | When do fall classes begin? |Wednesday, September 23, 2026 | not enough informatoin| partially relevent| inaccurate|
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
@@ -118,12 +128,17 @@
      results from an unrelated review" is an explanation. -->
 
 **Question that failed:**
-
+When do fall classes begin?
 **What the system returned:**
-
+I don't have enough information on that.
 **Root cause (tied to a specific pipeline stage):**
 
+In the chunking, the target chunk that would have it (07 academic calander chunk 9) isn't found. Instead, the winter classes
+and when they start are found instead. The retreival stage/chunking stage is to blame.
+
 **What you would change to fix it:**
+
+I would probably have to do a more through search & clense through the chunking. I realized that the academic calandar document lists the date and then the event afterwards, but it might be hard to pickout which date is to which event due to chunking since there isn't a really clear indicator (ie a colon :) to determine which date corresponds to which event
 
 ---
 
@@ -151,12 +166,12 @@
 
 **Instance 1**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- _What I gave the AI:_
+- _What it produced:_
+- _What I changed or overrode:_
 
 **Instance 2**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- _What I gave the AI:_
+- _What it produced:_
+- _What I changed or overrode:_

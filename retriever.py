@@ -18,7 +18,7 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 CHROMA_PATH = "./chroma_db"
 COLLECTION_NAME = "unofficial_guide"
 CHUNKS_PATH = Path("documents/chunks.json")
-N_RESULTS = 3
+N_RESULTS = 5
 
 # ── Initialization ─────────────────────────────────────────────────────────────
 # sentence-transformers downloads the model on first use (~20 MB).
