@@ -74,7 +74,11 @@ These choicse fit the documents since most of them are FAQ documents, so it doen
 
 **Model used:**
 
+all-MiniLM-L6-v2 via sentence-transformers
+
 **Production tradeoff reflection:**
+
+all-MiniLM-L6-v2 is lightweight and quick, but their model isn't the best at capturing the most accurate embeddings. in one of my future examples, this embedding model got caught up on the specific words about "class ending" rather than "winter term", meaning that when I queired about fall or spring term ending times, the top k embeddings returned were all about winter, resulting in a retrevial failure. Perhaps choosing a larger model such as all-mpnet-base-v2 or cohere's embeddings would have worked better at capturing the intent behind the chunks.
 
 ---
 
@@ -89,7 +93,17 @@ These choicse fit the documents since most of them are FAQ documents, so it doen
 
 **System prompt grounding instruction:**
 
+"You are a helpful assistant for Northwestern University's Wildcat Welcome "
+"orientation program. "
+"Answer ONLY using the documents provided in the user message below. "
+"Do not use any outside knowledge or information not present in those documents. "
+"If the documents do not contain enough information to answer the question, "
+"respond with exactly: 'I don't have enough information on that.' "
+"Do not guess, infer, or extrapolate beyond what the documents say."
+
 **How source attribution is surfaced in the response:**
+
+There was a text box at the bottom that lists specific inquired documents utilized when quering from the vector db.
 
 ---
 
@@ -149,7 +163,13 @@ I would probably have to do a more through search & clense through the chunking.
 
 **One way the spec helped you during implementation:**
 
+The spec helped me seperate the specific tasks required to build this RAG system. Like, if I didn't have the spec, I wouldn't have
+been able to definitively decide where to stop and test as well as with it. Since the spec gave me suggested
+boundries about where to end, that also naturally directed me to think and reflect about what I did better.
+
 **One way your implementation diverged from the spec, and why:**
+
+I guess the chunking aspect? The spec (or at least the codepath page) told me to take the source code from the page and tell ai to clean it, but I found that simply selecting all and parsing by hand was quicker and more accurate. I still had to do some manual cleaning afterwards as well.
 
 ---
 
@@ -166,12 +186,15 @@ I would probably have to do a more through search & clense through the chunking.
 
 **Instance 1**
 
-- _What I gave the AI:_
-- _What it produced:_
-- _What I changed or overrode:_
+- \_What I gave the AI: I gave the AI the url links and I told it to extract the info and create a script to chunk those resources
+- \_What it produced: I did so all in one sweep, creating the chunk json file from the links I gave it
+- \_What I changed or overrode: I wasn't able to manually clean it, so I had to tell the AI to back up and simply turn all the links into txt files
+  beforehand and then I cleaned them and eventually gave it to the ai to chunk it afterwards
 
 **Instance 2**
 
-- _What I gave the AI:_
-- _What it produced:_
-- _What I changed or overrode:_
+- \_What I gave the AI: I told it to create a system prompt that forced grounding when retreving information
+- \_What it produced: It did so, and the prompt in production worked well when it had data but went to guess
+  when it didn't have a strong enough source
+- \_What I changed or overrode: I manually tweaked the system prompt to make sure that the AI couldn't
+  use its own knowledge to guess the data, but rather respond with unconfidence instead
